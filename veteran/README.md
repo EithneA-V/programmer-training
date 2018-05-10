@@ -199,7 +199,7 @@ Understand...
 
 > **τ=Jα**
 
-> **τ1ω1 = τ2ω2 (in a gearbox)**
+> **τ~1~ω~1 = τ~2~ω~2 (in a gearbox)**
 
 >ΔE = W = Fd (work/energy)
 
