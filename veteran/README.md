@@ -1,13 +1,12 @@
 #Veteran Robot Programmer Training
 
 In the summer and offseason of 2018-2019, we will be taking steps to ensure that our second-year programmers (congrats! You made it through build season!) will be able to effectively manage the entire codebase by themselves - essentially, the sum of this second-year training should be enough to bring the programmers up to the level needed to fully contribute to the robot programming codebase. This training will involve several areas, including greater depth of understanding in C++ and Python programming as well as specific knowledge of the Linux operating system, the Bazel build system, and WPILib and the FRC control system.
-READ
+
 Every programmer is not expected to understand all of the below topics in complete detail. Everyone should still have some basic familiarity with each of the topics: bolded entries below indicate topics that all veteran programmers should understand. Each programmer should also study in depth two or three other topics with the expectation that they will become one of the team’s "experts” on that topic.
 
 This training will mostly involve the self-paced use of resources linked below. There may also be some formal lectures or exercises depending on what the programmers are having trouble with.
 
 ##Git and Github
-
 
 ###Goals
 
@@ -23,27 +22,17 @@ Understand...
 * **Pull Requests**
 * **Code Review**
 
-
 ###Resouces
 
 There are a lot of developers who post information on how to do specific git things.
 
-* Remotes
+* [Working with Remotes (and doing stuff with them)] (http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/remotes.html)
 
-> [Working with Remotes (and doing stuff with them)] (http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/remotes.html)
+* [Using the Fork-and-Branch Git Workflow] (https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
 
-* Forking and Branching
+* [Pull Requests and Code Review Guidlines (Code Inspection Checklist)] (http://www.literateprogramming.com/Baldwin-inspect.pdf)
 
-> [Using the Fork-and-Branch Git Workflow] (https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
-
-* Pull Requests and Code Review Guidlines
-
-> [Code Inspection Checklist] (http://www.literateprogramming.com/Baldwin-inspect.pdf)
-
-* Test your basic knowledge of git
-
-> [Help On Command] (http://gitreal.codeschool.com/levels/1/challenges/1)
-
+* [Test your basic knowledge of git] (http://gitreal.codeschool.com/levels/1/challenges/1)
 
 ##C++
 
@@ -66,13 +55,9 @@ Understand...
 
 Most C++ topics are covered by [Learn CPP] (http://www.learncpp.com/)
 
-* Stack and Heap Memory
+* [Stack and Heap Memory] (http://www.learncpp.com/cpp-tutorial/79-the-stack-and-the-heap/)
 
-> [The stack and the heap] (http://www.learncpp.com/cpp-tutorial/79-the-stack-and-the-heap/)
-
-* Ownership
-
-> [C++ Ownership Semantics] (http://ericlavesson.blogspot.com/2013/03/c-ownership-semantics.html)
+* [C++ Ownership Semantics] (http://ericlavesson.blogspot.com/2013/03/c-ownership-semantics.html)
 
 * Multithreading
 * Real-time Behavior
@@ -100,7 +85,7 @@ Mount Points
 
 ###Resources
 
-* [Over the Wire (games)] (http://overthewire.org/wargames/bandit/)
+* [Over the Wire (games)] (http://overthewire.org/wargames/bandits)
 * [Linux Journey] (https://linuxjourney.com/)
 
 ##Bazel
@@ -111,20 +96,15 @@ Be able to...
 
 * **Use cc_library, cc_binary, and cc_test in real code**
 
->**Know when and how to properly declare dependencies in code
+>**Know when and how to properly declare dependencies in code**
 
 * Create and use macros for code generation
 * Configure the CROSSTOOL to fix the build system for different setups
 
 ###Resources
 
-* Official Bazel documentation
-
->[Documentation] (https://bazel.build/versions/master/docs/bazel-overview.html)
-
-* Bazel wiki has some information about specifics for cross-compilation
-
->[Bazel Wiki Home] (https://github.com/bazelbuild/bazel/wiki)
+*[Bazel Documentation] (https://bazel.build/versions/master/docs/bazel-overview.html)
+*[Bazel Wiki Home] (https://github.com/bazelbuild/bazel/wiki)
 
 ##WPILib and FRC Components
 
@@ -199,7 +179,6 @@ Understand...
 * [Learn Python] (https://www.learnpython.org)
 * [Numpy] (https://docs.scipy.org/doc/numpy-1.12.0/index.html)
 
-
 ##Math and Physics
 
 ###Goals
@@ -241,11 +220,11 @@ Understand...
 
 ###Resources
 
-*[Linear Algebra (Matrices and Vectors)] (https://www.cs.cornell.edu/courses/cs485/2006sp/LinAlg_Complete.pdf)
+* [Linear Algebra (Matrices and Vectors)] (https://www.cs.cornell.edu/courses/cs485/2006sp/LinAlg_Complete.pdf)
 >**Important sections:** 
 Matrices and Matrix Arithmetic & Operations
 
-*[Differential Equations] (http://tutorial.math.lamar.edu/Classes/DE/DE.aspx)
+* [Differential Equations] (http://tutorial.math.lamar.edu/Classes/DE/DE.aspx)
 
 >**Important sections:**
 
@@ -300,17 +279,11 @@ Be able to...
 
 ###Resources
 
-* Wesley's Blog
+* [Wesley's Blog: Control Theory Part 0] (http://blog.wesleyac.com/posts/intro-to-control-part-zero-whats-this)
 
->[Control Theory Part 0] (http://blog.wesleyac.com/posts/intro-to-control-part-zero-whats-this)
+* [254-Taking Control of your Robot] (https://www.team254.com/documents/control/)
 
-* 254
-
->[Taking Control of your Robot] (https://www.team254.com/documents/control/)
-
-* 254+971
-
->[Motion Planning and Control (youtube)] (https://www.youtube.com/watch?v=8319J1BEHwM)
+* [254+971-Motion Planning and Control (youtube)] (https://www.youtube.com/watch?v=8319J1BEHwM)
 
 ##Vision
 
