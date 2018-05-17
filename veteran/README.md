@@ -85,7 +85,7 @@ Mount Points
 
 ###Resources
 
-* [Over the Wire (games)] (http://overthewire.org/wargames/bandits)
+* [Over the Wire (games)] (http://overthewire.org/wargames/bandit)
 * [Linux Journey] (https://linuxjourney.com/)
 
 ##Bazel
@@ -103,8 +103,8 @@ Be able to...
 
 ###Resources
 
-*[Bazel Documentation] (https://bazel.build/versions/master/docs/bazel-overview.html)
-*[Bazel Wiki Home] (https://github.com/bazelbuild/bazel/wiki)
+* [Bazel Documentation] (https://bazel.build/versions/master/docs/bazel-overview.html)
+* [Bazel Wiki Home] (https://github.com/bazelbuild/bazel/wiki)
 
 ##WPILib and FRC Components
 
@@ -199,7 +199,7 @@ Understand...
 
 > **τ=Jα**
 
-> **τ~1~ω~1 = τ~2~ω~2 (in a gearbox)**
+> **τ1ω1 = τ2ω2 (in a gearbox)**
 
 >ΔE = W = Fd (work/energy)
 
